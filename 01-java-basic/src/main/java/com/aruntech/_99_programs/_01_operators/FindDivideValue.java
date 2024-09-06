@@ -13,9 +13,10 @@ public class FindDivideValue {
         int dividend = sc.nextInt();
         System.out.print("Enter the divisor:");
         int divisor = sc.nextInt();
+        sc.close();
+
         int quotient = dividend / divisor;
         int remainder = dividend % divisor;
         System.out.print("Quotient: "+quotient+" Remainder: "+remainder);
-        sc.close();
     }
 }

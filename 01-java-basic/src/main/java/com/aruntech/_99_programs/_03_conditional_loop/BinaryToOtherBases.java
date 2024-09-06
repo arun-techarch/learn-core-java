@@ -50,11 +50,12 @@ public class BinaryToOtherBases {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter binary value:");
         int b = sc.nextInt();
+        sc.close();
+
         int d = binaryToDecimal(String.valueOf(b));
         System.out.println("Binary:"+b);
         System.out.println("Decimal:"+d);
         System.out.println("Octal:"+decimalToOctal(d));
         System.out.println("Hexadecimal:"+decimalToHexadecimal(d));
-        sc.close();
     }
 }

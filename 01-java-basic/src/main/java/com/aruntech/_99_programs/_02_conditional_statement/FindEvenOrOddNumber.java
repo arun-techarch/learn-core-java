@@ -13,6 +13,7 @@ public class FindEvenOrOddNumber {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter number to find even or odd: ");
         int num = sc.nextInt();
+        sc.close();
 
         // using if condition
         // checking the number is divisible by 2 and reminder is 0

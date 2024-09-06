@@ -13,6 +13,7 @@ public class FindSumOfAllDivisor {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int num = sc.nextInt();
+        sc.close();
 
         if(num <= 0) {
             System.out.printf("%d is not a valid number", num);

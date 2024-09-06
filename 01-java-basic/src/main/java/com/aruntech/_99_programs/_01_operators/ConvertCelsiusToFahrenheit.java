@@ -11,8 +11,9 @@ public class ConvertCelsiusToFahrenheit {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter Celsius value:");
         int c = sc.nextInt();
+        sc.close();
+
         int f = (c * 9/5) + 32;
         System.out.println("Fahrenheit value of Celsius value "+c+" is "+f);
-        sc.close();
     }
 }

@@ -11,9 +11,10 @@ public class ConvertRupeeToDollar {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter Dollar amount:");
         int dl = sc.nextInt();
+        sc.close();
+
         //Assume i dollar = 70 Rs
         int rs = dl * 70;
         System.out.println(dl+" $ = "+rs+" Rs.");
-        sc.close();
     }
 }

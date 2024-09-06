@@ -11,6 +11,8 @@ public class PrintNNumbers {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter n number:");
         int n = sc.nextInt();
+        sc.close();
+
         for(int i=1; i<=n; i++) {
             if(i == n) {
                 System.out.print(i);
@@ -18,6 +20,5 @@ public class PrintNNumbers {
                 System.out.print(i+",");
             }
         }
-        sc.close();
     }
 }

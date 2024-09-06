@@ -11,6 +11,8 @@ public class CalculateSumOfOddNumbers {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter n number:");
         int n = sc.nextInt();
+        sc.close();
+
         int sum = 0;
         for(int i=1; i<=n; i++) {
             if(i%2 == 1) {
@@ -18,6 +20,5 @@ public class CalculateSumOfOddNumbers {
             }
         }
         System.out.println("Sum = "+sum);
-        sc.close();
     }
 }

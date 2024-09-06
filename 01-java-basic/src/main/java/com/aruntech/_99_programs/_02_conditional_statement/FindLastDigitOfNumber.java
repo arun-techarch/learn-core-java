@@ -13,9 +13,10 @@ public class FindLastDigitOfNumber {
         Scanner sc = new Scanner((System.in));
         System.out.print("Enter number to find last digit: ");
         int num = sc.nextInt();
+        sc.close();
 
         if(num <= 0) {
-            System.out.println("Invalid number!");
+            System.out.println("Invalid input!");
         } else {
             if(num < 10) {
                 System.out.printf("Last digit of (%d) is : %d", num, num);

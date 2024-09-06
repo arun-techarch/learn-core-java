@@ -13,6 +13,7 @@ public class FindPrimeNumber {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter number to find prime: ");
         int num = sc.nextInt();
+        sc.close();
 
         // check number is greater than 1 and not divisible by 2 or 3.
         if(num > 1 && (num % 2) != 0 && (num % 3) != 0) {

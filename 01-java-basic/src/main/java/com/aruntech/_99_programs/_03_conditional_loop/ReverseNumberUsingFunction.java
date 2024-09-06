@@ -34,9 +34,10 @@ public class ReverseNumberUsingFunction {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number to reverse: ");
         int num = sc.nextInt();
+        sc.close();
 
         if(num <= 0){
-            System.out.println("Invalid number!!");
+            System.out.println("Invalid input!!");
         } else if(num < 10) {
             System.out.printf("Reverse number of(%d) is:%d\n", num, num);
         } else {

@@ -19,6 +19,7 @@ public class CheckRightAngleTriangle {
         int b = sc.nextInt();
         System.out.print("Enter side c: ");
         int c = sc.nextInt();
+        sc.close();
 
         if((a*a+b*b) == (c*c)) {
             System.out.println("Given triangle is a right angle triangle");

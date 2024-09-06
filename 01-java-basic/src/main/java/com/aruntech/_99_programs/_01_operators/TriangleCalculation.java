@@ -18,10 +18,11 @@ public class TriangleCalculation {
         int a = sc.nextInt();
         System.out.print("Enter side2 value: ");
         int c = sc.nextInt();
+        sc.close();
+
         int area = (b * h)/2;
         int surface = a + b + c;
         System.out.println("Area of Rectangle:"+area);
         System.out.println("Surface Area of Rectangle:"+surface);
-        sc.close();
     }
 }

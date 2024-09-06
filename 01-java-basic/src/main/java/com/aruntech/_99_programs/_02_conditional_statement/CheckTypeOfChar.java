@@ -14,6 +14,8 @@ public class CheckTypeOfChar {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a character:");
         char ch = sc.next().toLowerCase().charAt(0);
+        sc.close();
+
         if(Character.isLetter(ch)) {
             if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
                 System.out.println(ch+" is a vowel");
@@ -23,6 +25,5 @@ public class CheckTypeOfChar {
         } else {
             System.out.println(ch+" is not a character");
         }
-        sc.close();
     }
 }

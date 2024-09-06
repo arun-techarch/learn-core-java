@@ -21,9 +21,10 @@ public class PrintSubtractionTable {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter subtraction table to print:");
         int n = sc.nextInt();
+        sc.close();
+
         for(int i=1; i<=10; i++) {
             System.out.println(i + " - " + n + " = " +(i-n));
         }
-        sc.close();
     }
 }

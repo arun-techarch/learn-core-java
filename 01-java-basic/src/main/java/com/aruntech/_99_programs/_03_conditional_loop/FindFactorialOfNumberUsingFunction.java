@@ -32,5 +32,6 @@ public class FindFactorialOfNumberUsingFunction {
             System.out.printf("Factorial of (%d): %d\n", num, findFactorial(num));
             count--;
         }
+        sc.close();
     }
 }

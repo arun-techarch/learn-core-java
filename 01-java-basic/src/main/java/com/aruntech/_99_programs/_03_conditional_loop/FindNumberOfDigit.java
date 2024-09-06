@@ -12,9 +12,10 @@ public class FindNumberOfDigit {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter number to find digits: ");
         int num = sc.nextInt();
+        sc.close();
 
         if(num < 0) {
-            System.out.println("Invalid number!!");
+            System.out.println("Invalid input!!");
         } else {
             int digit = 1;
             while(num >= 10) {

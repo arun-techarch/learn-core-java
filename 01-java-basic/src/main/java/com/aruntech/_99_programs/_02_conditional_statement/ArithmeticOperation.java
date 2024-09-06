@@ -15,6 +15,7 @@ public class ArithmeticOperation {
         int num2 = sc.nextInt();
         System.out.print("Enter the operator(+, -, *, /, %): ");
         char op = sc.next().charAt(0);
+        sc.close();
 
         switch (op) {
             case '+':

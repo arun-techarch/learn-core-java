@@ -11,6 +11,8 @@ public class PrintReverseNNumbers {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter n number:");
         int n = sc.nextInt();
+        sc.close();
+
         for(int i=n; i>=1; i--) {
             if(i == 1) {
                 System.out.print(i);
@@ -18,6 +20,5 @@ public class PrintReverseNNumbers {
                 System.out.print(i+",");
             }
         }
-        sc.close();
     }
 }

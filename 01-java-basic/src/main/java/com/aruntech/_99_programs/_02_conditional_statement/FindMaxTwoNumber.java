@@ -16,6 +16,7 @@ public class FindMaxTwoNumber {
         int a = sc.nextInt();
         System.out.print("Enter value b: ");
         int b = sc.nextInt();
+        sc.close();
 
         // using Math class
         System.out.println("Using Math: Max: " + Math.max(a, b));

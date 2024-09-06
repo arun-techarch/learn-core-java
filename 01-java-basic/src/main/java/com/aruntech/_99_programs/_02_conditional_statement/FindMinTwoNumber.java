@@ -16,6 +16,7 @@ public class FindMinTwoNumber {
         int a = sc.nextInt();
         System.out.print("Enter value b: ");
         int b = sc.nextInt();
+        sc.close();
 
         // using Math class
         System.out.println("Using Math: Min: " + Math.min(a, b));

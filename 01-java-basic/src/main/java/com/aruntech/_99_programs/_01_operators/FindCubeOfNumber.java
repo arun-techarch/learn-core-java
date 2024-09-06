@@ -14,6 +14,8 @@ public class FindCubeOfNumber {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter number to find cube value: ");
         int num = sc.nextInt();
+        sc.close();
+
         int cube = num * num * num;
         System.out.printf("Cube(%d * %d * %d): %d", num, num, num, cube);
     }

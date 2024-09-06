@@ -13,9 +13,10 @@ public class CalculateSumOfSquareOfNNumbers {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter range of print square numbers: ");
         int range = sc.nextInt();
+        sc.close();
 
         if(range <= 0) {
-            System.out.println("Invalid range!");
+            System.out.println("Invalid input!");
         } else {
             int sum = 0;
             for(int i=1; i<=range; i++) {

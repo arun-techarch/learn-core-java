@@ -15,12 +15,13 @@ public class RectangleCalculation {
         int l = sc.nextInt();
         System.out.print("Enter width value: ");
         int w = sc.nextInt();
+        sc.close();
+
         double area = l * w;
         double surface = 2 * (l+w);
         double diagonal = Math.sqrt(l*l+w * w);
         System.out.println("Area of Rectangle:"+area);
         System.out.println("Surface Area of Rectangle:"+surface);
         System.out.println("Diagonal of Rectangle:"+diagonal);
-        sc.close();
     }
 }

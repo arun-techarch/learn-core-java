@@ -13,12 +13,13 @@ public class SquareCalculation {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter side value: ");
         int a = sc.nextInt();
+        sc.close();
+
         double area = a * a;
         double surface = 4 * a;
         double diagonal = Math.sqrt(2) * 4;
         System.out.println("Area of Rectangle:"+area);
         System.out.println("Surface Area of Rectangle:"+surface);
         System.out.println("Diagonal of Rectangle:"+diagonal);
-        sc.close();
     }
 }

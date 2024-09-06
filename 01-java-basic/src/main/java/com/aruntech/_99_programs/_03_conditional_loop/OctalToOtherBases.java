@@ -50,11 +50,12 @@ public class OctalToOtherBases {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter octal value:");
         int o = sc.nextInt();
+        sc.close();
+
         int d = octalToDecimal(String.valueOf(o));
         System.out.println("Octal:"+o);
         System.out.println("Decimal:"+d);
         System.out.println("Binary:"+decimalToBinary(d));
         System.out.println("Hexadecimal:"+decimalToHexadecimal(d));
-        sc.close();
     }
 }

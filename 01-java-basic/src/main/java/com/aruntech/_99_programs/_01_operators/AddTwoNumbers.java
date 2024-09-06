@@ -14,7 +14,7 @@ public class AddTwoNumbers {
         int a = sc.nextInt();
         System.out.print("Enter number b:");
         int b = sc.nextInt();
-        System.out.println(a+" + "+b+" = "+(a+b));
         sc.close();
+        System.out.println(a+" + "+b+" = "+(a+b));
     }
 }

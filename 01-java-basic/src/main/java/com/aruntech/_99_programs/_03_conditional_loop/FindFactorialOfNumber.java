@@ -12,11 +12,12 @@ public class FindFactorialOfNumber {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter number to find factorial: ");
         int num = sc.nextInt();
+        sc.close();
 
         // this code is used only once so, better we can move this code
         // into a function and reuse the same in multiple places.
         if(num < 0) {
-            System.out.println("Invalid number!");
+            System.out.println("Invalid input!");
         } else {
             int factorial = 1;
             for(int i=1; i<=num; i++) {

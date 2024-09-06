@@ -14,6 +14,7 @@ public class FindPerfectNumber {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter number to check perfect number: ");
         int num = sc.nextInt();
+        sc.close();
 
         if(num <= 0) {
             System.out.printf("%d is not a perfect number", num);

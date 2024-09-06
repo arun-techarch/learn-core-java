@@ -9,19 +9,19 @@ import java.util.Scanner;
  */
 public class CalculateSimpleInterest {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.print("Enter principal amount: ");
-        double principal = scanner.nextDouble();
+        double principal = sc.nextDouble();
 
         System.out.print("Enter rate of interest: ");
-        double rate = scanner.nextDouble();
+        double rate = sc.nextDouble();
 
         System.out.print("Enter time period in years: ");
-        double time = scanner.nextDouble();
+        double time = sc.nextDouble();
+        sc.close();
 
         // Calculate simple interest
         double simpleInterest = (principal * time * rate) / 100;
         System.out.println("Simple Interest: " + simpleInterest);
-        scanner.close();
     }
 }

@@ -13,11 +13,12 @@ public class CheckDigitOfChar {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a character:");
         String ch = sc.next();
+        sc.close();
+
         if(Character.isDigit(ch.charAt(0))) {
             System.out.println(ch+" is a digit");
         } else {
             System.out.println(ch+" is not a digit");
         }
-        sc.close();
     }
 }

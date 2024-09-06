@@ -53,11 +53,12 @@ public class HexadecimalToOtherBases {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter hexadecimal value:");
         String h = sc.next();
+        sc.close();
+
         int d = hexadecimalToDecimal(h);
         System.out.println("Hexadecimal:"+h);
         System.out.println("Decimal:"+d);
         System.out.println("Binary:"+decimalToBinary(d));
         System.out.println("Octal:"+decimalToOctal(d));
-        sc.close();
     }
 }

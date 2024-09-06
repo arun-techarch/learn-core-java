@@ -12,10 +12,11 @@ public class CircleCalculation {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter radius value: ");
         int r = sc.nextInt();
+        sc.close();
+
         double area = Math.PI * r * r;
         double surface = 2 * Math.PI * r;
         System.out.println("Area of Circle:"+area);
         System.out.println("Surface Area of Circle:"+surface);
-        sc.close();
     }
 }

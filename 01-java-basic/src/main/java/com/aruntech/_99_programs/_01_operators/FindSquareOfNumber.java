@@ -14,6 +14,8 @@ public class FindSquareOfNumber {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter number to find square value: ");
         int num = sc.nextInt();
+        sc.close();
+
         int square = num * num;
         System.out.printf("Square(%d * %d): %d", num, num, square);
     }

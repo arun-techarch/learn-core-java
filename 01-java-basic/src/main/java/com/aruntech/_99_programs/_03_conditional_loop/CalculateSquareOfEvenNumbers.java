@@ -12,6 +12,8 @@ public class CalculateSquareOfEvenNumbers {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter n number:");
         int n = sc.nextInt();
+        sc.close();
+
         int sum = 0;
         for(int i=1; i<=n; i++) {
             if(i%2 == 0) {
@@ -19,6 +21,5 @@ public class CalculateSquareOfEvenNumbers {
             }
         }
         System.out.println("Sum = "+sum);
-        sc.close();
     }
 }

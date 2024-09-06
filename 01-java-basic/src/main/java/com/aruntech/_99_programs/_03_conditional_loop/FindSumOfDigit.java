@@ -12,6 +12,7 @@ public class FindSumOfDigit {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter number to find sum of digit: ");
         int num = sc.nextInt();
+        sc.close();
 
         if(num <= 0) {
             System.out.println("Sum of Digit: 0");

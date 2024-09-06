@@ -49,10 +49,11 @@ public class DecimalToOtherBases {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter decimal value:");
         int d = sc.nextInt();
+        sc.close();
+
         System.out.println("Decimal:"+d);
         System.out.println("Binary:"+decimalToBinary(d));
         System.out.println("Octal:"+decimalToOctal(d));
         System.out.println("Hexadecimal:"+decimalToHexadecimal(d));
-        sc.close();
     }
 }

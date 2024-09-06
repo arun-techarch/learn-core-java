@@ -15,11 +15,12 @@ public class DivisonTwoNumbers {
         int a = sc.nextInt();
         System.out.print("Enter number b:");
         int b = sc.nextInt();
+        sc.close();
+
         if(b == 0) {
             System.out.println("Cannot divide the number by zero");
         } else {
             System.out.println(a + " / " + b + " = " + (a / b));
         }
-        sc.close();
     }
 }

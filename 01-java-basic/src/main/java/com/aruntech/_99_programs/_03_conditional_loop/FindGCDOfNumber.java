@@ -32,6 +32,7 @@ public class FindGCDOfNumber {
         int num1 = sc.nextInt();
         System.out.print("Enter number2: ");
         int num2 = sc.nextInt();
+        sc.close();
 
         if(num1 <= 0 || num2 <= 0) {
             System.out.println("Enter value greater than equal to 0");
